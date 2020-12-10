@@ -7,7 +7,8 @@ basic.forever(function () {
         basic.showNumber(counter)
     } else if (counter == 3) {
         basic.showIcon(IconNames.No)
-        pause(30000)
-        counter = 0
+        music.playMelody("E G C5 A B G A F ", 240)
+        pause(10000)
+counter = 0
     }
 })
